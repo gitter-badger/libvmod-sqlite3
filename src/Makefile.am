@@ -8,7 +8,8 @@ libvmod_sqlite3_la_LDFLAGS = -module -export-dynamic -avoid-version -shared \
 	$(SQLITE3_LIBS)
 
 libvmod_sqlite3_la_SOURCES = \
-	vmod_sqlite3.c
+	vmod_sqlite3.c \
+	sqlite3.c
 nodist_libvmod_sqlite3_la_SOURCES = \
 	vcc_if.c \
 	vcc_if.h
