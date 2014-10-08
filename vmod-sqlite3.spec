@@ -28,7 +28,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_libdir}/varnis*/vmods/
 %doc /usr/share/doc/%{name}/*
-%{_mandir}/man?/*
 %changelog
 * Wed Oct  8 2014 Federico G. Schwindt <fgsch@lodoss.net> - 0.1-1
 - Initial version.
